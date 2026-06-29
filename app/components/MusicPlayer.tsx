@@ -25,10 +25,10 @@ export default function MusicPlayer() {
     <div
       style={{
         position: "fixed",
-        bottom: "25px",
-        right: "25px",
+        bottom: "90px",
+        right: "10px",
         zIndex: 9999,
-        width: "320px",
+        width: "min(280px, 80vw)"
         padding: "18px",
         borderRadius: "25px",
         background: "rgba(0,0,0,0.65)",
