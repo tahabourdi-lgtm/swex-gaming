@@ -69,21 +69,21 @@ export default function Hero() {
       <div style={{ position: "relative", zIndex: 1 }}>
         <h1
           className="glitch-title"
-          data-text="SwEeX4Taq"
+          data-text="SwEx4Taq"
           style={{
-            fontSize: "120px",
+            fontSize: "clamp(50px, 12vw, 120px)",
             fontWeight: "900",
             color: "#a855f7",
             textShadow: "0 0 40px #a855f7",
             animation: "pulseGlow 2s infinite ease-in-out",
           }}
         >
-          SwEeX4Taq
+          SwEx4Taq
         </h1>
 
         <p
           style={{
-            fontSize: "28px",
+            fontSize: "clamp(16px, 4vw, 28px)",
             marginTop: "20px",
             color: "#c084fc",
             textShadow: "0 0 20px #a855f7",
@@ -99,7 +99,8 @@ export default function Hero() {
         <div
           style={{
             marginTop: "35px",
-            padding: "18px 40px",
+            padding: "14px 25px",
+            maxWidth: "90vw", 
             border: "2px solid #a855f7",
             borderRadius: "20px",
             background: "rgba(168, 85, 247, 0.1)",
@@ -111,7 +112,7 @@ export default function Hero() {
             style={{
               margin: 0,
               color: "white",
-              fontSize: "24px",
+              fontSize: "clamp(18px, 5vw, 24px)",
               letterSpacing: "3px",
               textShadow: "0 0 15px #a855f7",
             }}
